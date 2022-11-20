@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pizzas</h1>
+
+
+    <div id="lista-de-pizzas">
+        <div id="primeira" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">25,90</h6>
+            <h6 class="descricao-das-pizzas">Calabresa</h6>
+        </div>
+        <div id="segunda" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">30,00</h6>
+            <h6 class="descricao-das-pizzas">Mussarela</h6>
+        </div>
+        <div id="terceira" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">27,00</h6>
+            <h6 class="descricao-das-pizzas">Frango</h6>
+        </div>
+        <br>
+        <div id="quarta" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">20,00</h6>
+            <h6 class="descricao-das-pizzas">Pequi</h6>
+        </div>
+        <div id="quinta" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">20,40</h6>
+            <h6 class="descricao-das-pizzas">Chocolate</h6>
+        </div>
+        <div id="sexta" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">15,70</h6>
+            <h6 class="descricao-das-pizzas">Palmito</h6>
+        </div>
+        <div id="setima" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">18,30</h6>
+            <h6 class="descricao-das-pizzas">Pimentão</h6>
+        </div>
+        <div id="oitava" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">17,30</h6>
+            <h6 class="descricao-das-pizzas">Sorvete</h6>
+        </div>
+        <div id="nona" class="pizzas">
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <button class="botoesDasPizzas" onclick="abrirModal()">+</button>
+            <h6 class="preco">14,00</h6>
+            <h6 class="descricao-das-pizzas">Carne</h6>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span> <!-- este span com o etimes é o x que fecha o modal-->
+            <img src="C:\Users\MMora\Pictures\pizza.PNG" alt="">
+            <div id="info">
+                <h2>Titulo</h2>
+                <h4>Descrição maluca</h4>
+                <br>
+                <h4>Tamanho</h4>
+                <button class="tamanhos">PEQUENA</button>
+                <button class="tamanhos">MÉDIA</button>
+                <button class="tamanhos">GRANDE</button>
+                <h5>PREÇO</h5>
+                <h3 id="valorDaPizza"></h3>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
